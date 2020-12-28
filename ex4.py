@@ -8,7 +8,7 @@ CONTADORNOTAS = 0
 while CONTADORNOTAS <= 10:
 	nota = int(input("Insira a nota: "))
 	TOTAL += nota
-	CONTADORNOTAS += nota
+	CONTADORNOTAS += 1 
 média = TOTAL/10
 print(f'A média da disciplina é {(TOTAL/10)}.')
 
